@@ -1,10 +1,10 @@
-// App.tsx
+// App.js
 
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import HomeScreen from './src/screens/HomeScreen';
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <View style={styles.container}>
       <HomeScreen />
